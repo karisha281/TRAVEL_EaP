@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">MyTourism</string>
+    <string name="action_settings">Ытройки</string>
+    <string name="action_user">Профиль</string>
+    <string name="action_shop">Магазин туров</string>
+    <string name="action_home">Home</string>
+    <string name="action_setting">Настройки</string>
+    <string name="action_help">Помощь</string>
+    <string name="korsina">Корзина</string>
+    <string name="history_shop">Мои туры</string>
+    <string name="exit">Выйти</string>
+    <string name="myprofile">Мой профиль</string>
+    <string name="mytours">Мой профиль</string>
+    <string name="tour_name">Имя тура</string>
+    <string name="tour_price">Цена тура</string>
+    <string name="remove">Удалить тур</string>
+    <string name="tour_image">Фото тура</string>
+    <string name="reminder_title">Напоминание</string>
+    <string name="reminder_text">Время путешествовать!</string>
+    <string name="for_programm_app">Приложение TRAVEL: Easy and Profitable</string>
+    <string name="for_programm_app_version">Версия 1.0</string>
+    <string name="for_programm_app_developer1">Главный разработчик: Булыгина Карина Васильевна</string>
+    <string name="for_programm_app_developer2">Разработчик: Клишин Марк Евгеньевич</string>
+    <string name="helpActiv_selectProblem">Выберите проблему из списка для получения дополнительной информации.</string>
+    <string name="helpActiv_describeProblem">Опишите проблему</string>
+    <string name="helpActiv_toSend">Отправить</string>
+    <string name="homeActiv_noConect">Нет соединения с интернетом</string>
+    <string name="homeActiv_noConect2">Пожалуйста, проверьте ваше подключение к интернету и попробуйте снова.</string>
+    <string name="loginActiv_enterNumberPhone">Введите номер телефона</string>
+    <string name="loginActiv_txtLogin">Логин</string>
+    <string name="loginActiv_enterLogin">Введите пароль</string>
+    <string name="loginActiv_txtPassword">Пароль</string>
+    <string name="loginActiv_forgotPassword">Забыли пароль?</string>
+    <string name="loginActiv_cbx_rememberme">Запомнить меня</string>
+    <string name="loginActiv_enter">Войти</string>
+    <string name="Regisrtation">Регистрация</string>
+    <string name="Login">Войти</string>
+    <string name="newsActiv_heading">Заголовок новости</string>
+    <string name="newsActiv_description">Описание новости</string>
+    <string name="notifActiv_notification">Уведомления</string>
+    <string name="notifActiv_OnOffNotification">Вкл/выкл уведомления</string>
+    <string name="activOrderPage_Cart">Корзина</string>
+    <string name="activResetPassW_resetBtn">Поменять пароль</string>
+    <string name="activHistory_myTours">Мои туры</string>
+    <string name="activRegisrt_username">Придумайте имя пользователя</string>
+    <string name="activRegisrt_txtUsername">Имя пользователя</string>
+    <string name="activRegisrt_email">Введите электронную почту</string>
+    <string name="activRegisrt_txtEmail">Электронная почта</string>
+    <string name="activRegisrt_numbPhone">Введите номер телефона</string>
+    <string name="activRegisrt_txtnumbPhone">Номер телефона</string>
+    <string name="activRegisrt_password">Придумайте пароль</string>
+    <string name="activRegisrt_txtpassword">Пароль</string>
+    <string name="activRegisrt_createAcc">Создать аккаунт</string>
+    <string name="activSett_changeTheme">Поменять тему</string>
+    <string name="activSett_notification">Уведомления</string>
+    <string name="activSett_lock">Конфиденциальность</string>
+    <string name="activSett_language">Язык</string>
+    <string name="activSett_help">Помощь</string>
+    <string name="activSett_forProgram">О программе</string>
+    <string name="activTour_tourName">Tour Name</string>
+    <string name="activTour_days">X days</string>
+    <string name="activTour_hotelname">Hotel Name</string>
+    <string name="activTour_price">Price: XX RUB</string>
+    <string name="activTour_incart">В корзину</string>
+    <string name="activTour_cartNull">Корзина пуста</string>
+    <string name="arrange">Оформить</string>
+    <string name="activUser_username">Никнейм</string>
+    <string name="activUserSett_username">Имя пользователя</string>
+    <string name="activUser_surname">Фамилия</string>
+    <string name="activUser_name">Имя</string>
+    <string name="activUser_patronymic">Отчество</string>
+    <string name="activUser_numberPhone">Ваш номер</string>
+    <string name="activUser_adress">Ваш адрес</string>
+    <string name="activUser_saveBtn">Сохранить</string>
+    <string name="product_name">Product Name</string>
+    <string name="news_heading">Заголовок новости</string>
+    <string name="news_description">News Description</string>
+    <string name="news_date">News Date</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="tourname">TourName</string>
+    <string name="tourprice">TourPrice</string>
+    <string name="tourdescription">TourDescription</string>
+    <string name="problem_auth">Проблема с авторизацией</string>
+    <string name="problem_booking">Проблема с бронированием</string>
+    <string name="problem_payment">Проблема с оплатой</string>
+    <string name="problem_other">Другая проблема</string>
+    <string name="problem_auth_desc">Если у вас возникли проблемы с авторизацией, проверьте правильность введенных данных (номер телефона и пароль). Если проблема не устраняется, свяжитесь со службой поддержки.</string>
+    <string name="problem_booking_desc">Если возникли проблемы с бронированием, убедитесь, что выбранные даты и параметры доступны. Если проблема не устраняется, свяжитесь со службой поддержки.</string>
+    <string name="problem_payment_desc">Если возникли проблемы с оплатой, проверьте, что платежные данные введены правильно. Если проблема не устраняется, свяжитесь со службой поддержки.</string>
+    <string name="problem_other_desc">Если у вас возникла другая проблема, пожалуйста, подробно опишите ее в поле ниже.</string>
+    <string name="problem_sent_toast">Проблема отправлена. Ожидайте ответа.</string>
+    <string name="theme_dark">Темный</string>
+    <string name="theme_light">Светлый</string>
+    <string name="select_language">Выберите язык</string>
+    <string name="select_theme">Выберите тему</string>
+    <string name="cancel">Отмена</string>
+    <string name="tour_selected">Вы выбрали %s</string>
+    <string name="exit_2">Вы действительно хотите выйти?</string>
+    <string name="Yes">Да</string>
+    <string name="No">Нет</string>
+    <string name="profile_photo_options">Опции фото профиля</string>
+    <string name="take_photo">Сделать фото</string>
+    <string name="upload_photo">Загрузить фото</string>
+    <string name="delete_photo">Удалить фото</string>
+    <string-array name="profile_photo_options">
+        <item>@string/take_photo</item>
+        <item>@string/upload_photo</item>
+        <item>@string/delete_photo</item>
+    </string-array>
+
+
+    <string-array name="country">
+
+        <item>Россия</item>
+        <item>Египет</item>
+        <item>Турция</item>
+
+    </string-array>
+
+</resources>

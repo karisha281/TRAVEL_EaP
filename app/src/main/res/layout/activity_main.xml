@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/BackgroundStyle"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginBottom="-30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/registration_in_app"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            style="@style/CustomButtonActivityMain"
+            android:padding="@dimen/button_padding"
+            android:text="@string/Regisrtation" />
+
+        <Button
+            android:id="@+id/login_in_app"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="@dimen/button_padding"
+            style="@style/CustomButtonActivityMain"
+            android:text="@string/Login" />
+    </LinearLayout>
+
+</RelativeLayout>

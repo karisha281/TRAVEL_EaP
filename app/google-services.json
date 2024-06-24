@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "337300773326",
+    "firebase_url": "https://traveleasy-5939a-default-rtdb.firebaseio.com",
+    "project_id": "traveleasy-5939a",
+    "storage_bucket": "traveleasy-5939a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337300773326:android:db36234a3588fa8075339f",
+        "android_client_info": {
+          "package_name": "com.example.mytourism"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6eZ2Hcaq05bYZYr6gD6YOz1GbloGf3fM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

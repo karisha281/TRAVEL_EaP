@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SettingsActivityStyle"
+    android:padding="16dp"
+    tools:context=".SettingsActivity">
+
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="400dp"
+        style="@style/SettingsActivityStyleImage">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/change_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="637dp"
+        style="@style/SettingsIconStyleChangeTheme"
+        android:drawablePadding="16dp"
+        android:text="@string/activSett_changeTheme"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="580dp"
+        style="@style/SettingsIconStyleNotification"
+        android:drawablePadding="16dp"
+        android:text="@string/activSett_notification"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="522dp"
+        style="@style/SettingsIconStyleLock"
+        android:drawablePadding="16dp"
+        android:text="@string/activSett_lock"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="466dp"
+        android:text="@string/activSett_language"
+        android:textSize="24sp"
+        android:drawablePadding="16dp"
+        style="@style/SettingsIconStylelanguage"/>
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="210dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="170dp"
+        style="@style/SettingsActivityStyleImage">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="314dp"
+        android:text="@string/activSett_help"
+        android:textSize="24sp"
+        android:drawablePadding="16dp"
+        style="@style/SettingsIconStyleHelp"/>
+
+    <TextView
+        android:id="@+id/for_programm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="253dp"
+        android:text="@string/activSett_forProgram"
+        android:textSize="24sp"
+        android:drawablePadding="16dp"
+        style="@style/SettingsIconStylePtogramm"/>
+
+</RelativeLayout>
+

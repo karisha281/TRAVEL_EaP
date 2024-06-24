@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/StyleLoginActivity"
+    tools:context=".LoginActivity">
+
+  <ImageView
+      android:id="@+id/background"
+      android:layout_width="350dp"
+      android:layout_height="550dp"
+      android:layout_marginHorizontal="32dp"
+      android:layout_marginVertical="32dp"
+      style="@style/StyleFragmentLoginActivityBack"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+  <ImageView
+      android:id="@+id/logo"
+      android:layout_width="241dp"
+      android:layout_height="185dp"
+      android:layout_marginTop="116dp"
+      android:scaleType="fitCenter"
+      android:src="@drawable/samolet"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/login_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="84dp"
+      android:layout_marginTop="5dp"
+      android:text="@string/loginActiv_txtLogin"
+      android:textSize="15sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/logo" />
+
+  <EditText
+      android:id="@+id/login"
+      android:layout_width="300dp"
+      android:layout_height="70dp"
+      android:layout_marginHorizontal="32dp"
+      android:layout_marginTop="8dp"
+      android:background="@drawable/button"
+      android:hint="@string/loginActiv_enterNumberPhone"
+      android:padding="22sp"
+      android:textColorHint="@color/gray"
+      android:textSize="15sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/login_text" />
+
+  <TextView
+      android:id="@+id/password_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="88dp"
+      android:layout_marginTop="4dp"
+      android:text="@string/loginActiv_txtPassword"
+      android:textSize="14sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/login" />
+
+  <EditText
+      android:id="@+id/password"
+      android:layout_width="300dp"
+      android:layout_height="70dp"
+      android:layout_marginHorizontal="32dp"
+      android:layout_marginTop="5dp"
+      android:background="@drawable/input_design"
+      android:hint="@string/loginActiv_enterLogin"
+      android:padding="25sp"
+      android:textColorHint="@color/gray"
+      android:textSize="15sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/password_text" />
+
+  <TextView
+      android:id="@+id/new_password"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="72dp"
+      android:text="@string/loginActiv_forgotPassword"
+      android:textSize="15sp"
+
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/password" />
+
+  <CheckBox
+      android:id="@+id/checkBoxRemeber"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="56dp"
+      android:layout_marginTop="4dp"
+      android:text="@string/loginActiv_cbx_rememberme"
+      android:textSize="14sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/password" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/button_login"
+      android:layout_width="300dp"
+      android:layout_height="65dp"
+      android:layout_marginHorizontal="32dp"
+      android:layout_marginTop="8dp"
+      android:background="@drawable/button"
+      android:padding="23sp"
+      android:text="@string/loginActiv_enter"
+      android:textColor="@color/black"
+      android:textColorHint="@color/gray"
+      android:textSize="15sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.522"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/checkBoxRemeber" />
+
+  <ImageView
+      android:id="@+id/password_toggle"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_marginEnd="72dp"
+      android:layout_marginBottom="248dp"
+      android:src="@drawable/ic_eye_on"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

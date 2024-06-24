@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/label"
+        android:label="TRAVEL: Easy and Profitable"
+        android:roundIcon="@drawable/label"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.MyTourism"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".PasswordResetActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".ReminderReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.app.REMINDER_BROADCAST" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileSettings"
+            android:exported="false" />
+        <activity
+            android:name=".PurchaseHistoryDetails"
+            android:exported="false" />
+        <activity
+            android:name=".PurchaseHistory"
+            android:exported="false" />
+        <activity
+            android:name=".SuccessfulPurchaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TourDetailsBeyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TourDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShopTourActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityForProgramm"
+            android:exported="false" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

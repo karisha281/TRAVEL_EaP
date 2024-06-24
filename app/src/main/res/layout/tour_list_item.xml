@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp">
+
+        <TextView
+            android:id="@+id/tourNameTour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tourname"
+            android:textAlignment="center"
+            style="@style/CountryTextThemeColor"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/tour_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tourNameTour"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"
+            android:outlineProvider="bounds"
+            app:shapeAppearanceOverlay="@style/roundImageView"
+            />
+
+        <RelativeLayout
+            android:id="@+id/price_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tour_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-25dp"
+            android:background="@drawable/price_back"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tour_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tourprice"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tour_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price_container"
+            android:layout_marginTop="7dp"
+            android:text="@string/tourdescription"
+            android:textAlignment="center"
+            style="@style/CountryTextThemeColor"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tour_description"
+            android:background="@drawable/price_back"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

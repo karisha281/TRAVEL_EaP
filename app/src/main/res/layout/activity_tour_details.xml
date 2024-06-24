@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/tourNameTour_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/activTour_tourName"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/tour_details_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/roundImageView"
+        />
+
+    <TextView
+        android:id="@+id/tour_details_days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/activTour_days"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tour_details_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/activTour_hotelname"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tour_details_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/activTour_price"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_in_cart"
+        android:layout_width="315dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/activTour_incart"
+        android:textColor="@color/gray"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/empty_cart_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activTour_cartNull"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+
+
+</LinearLayout>

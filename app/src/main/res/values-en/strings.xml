@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyTourism</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_user">Profile</string>
+    <string name="action_shop">Tour Shop</string>
+    <string name="action_home">Home</string>
+    <string name="action_setting">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="korsina">Cart</string>
+    <string name="history_shop">My Tours</string>
+    <string name="exit">Logout</string>
+    <string name="myprofile">My Profile</string>
+    <string name="mytours">My Profile</string>
+    <string name="tour_name">Tour Name</string>
+    <string name="tour_price">Tour Price</string>
+    <string name="remove">Remove Tour</string>
+    <string name="tour_image">Tour Photo</string>
+    <string name="reminder_title">Reminder</string>
+    <string name="reminder_text">Time to travel!</string>
+    <string name="for_programm_app">TRAVEL: Easy and Profitable Application</string>
+    <string name="for_programm_app_version">Version 1.0</string>
+    <string name="for_programm_app_developer1">Lead Developer: Karina Bulygina</string>
+    <string name="for_programm_app_developer2">Developer: Mark Klishin</string>
+    <string name="helpActiv_selectProblem">Select a problem from the list to get more information.</string>
+    <string name="helpActiv_describeProblem">Describe the problem</string>
+    <string name="helpActiv_toSend">Send</string>
+    <string name="homeActiv_noConect">No internet connection</string>
+    <string name="homeActiv_noConect2">Please check your internet connection and try again.</string>
+    <string name="loginActiv_enterNumberPhone">Enter phone number</string>
+    <string name="loginActiv_txtLogin">Login</string>
+    <string name="loginActiv_enterLogin">Enter password</string>
+    <string name="loginActiv_txtPassword">Password</string>
+    <string name="loginActiv_forgotPassword">Forgot password?</string>
+    <string name="loginActiv_cbx_rememberme">Remember me</string>
+    <string name="loginActiv_enter">Login</string>
+    <string name="Regisrtation">Registration</string>
+    <string name="Login">Login</string>
+    <string name="newsActiv_heading">News Heading</string>
+    <string name="newsActiv_description">News Description</string>
+    <string name="notifActiv_notification">Notifications</string>
+    <string name="notifActiv_OnOffNotification">Turn on/off notifications</string>
+    <string name="activOrderPage_Cart">Cart</string>
+    <string name="activResetPassW_resetBtn">Change password</string>
+    <string name="activHistory_myTours">My Tours</string>
+    <string name="activRegisrt_username">Choose a username</string>
+    <string name="activRegisrt_txtUsername">Username</string>
+    <string name="activRegisrt_email">Enter email</string>
+    <string name="activRegisrt_txtEmail">Email</string>
+    <string name="activRegisrt_numbPhone">Enter phone number</string>
+    <string name="activRegisrt_txtnumbPhone">Phone number</string>
+    <string name="activRegisrt_password">Choose a password</string>
+    <string name="activRegisrt_txtpassword">Password</string>
+    <string name="activRegisrt_createAcc">Create account</string>
+    <string name="activSett_changeTheme">Change theme</string>
+    <string name="activSett_notification">Notifications</string>
+    <string name="activSett_lock">Privacy</string>
+    <string name="activSett_language">Language</string>
+    <string name="activSett_help">Help</string>
+    <string name="activSett_forProgram">About the app</string>
+    <string name="activTour_tourName">Tour Name</string>
+    <string name="activTour_days">X days</string>
+    <string name="activTour_hotelname">Hotel Name</string>
+    <string name="activTour_price">Price: XX RUB</string>
+    <string name="activTour_incart">Add to cart</string>
+    <string name="activTour_cartNull">Cart is empty</string>
+    <string name="arrange">Checkout</string>
+    <string name="activUser_username">Username</string>
+    <string name="activUserSett_username">Username</string>
+    <string name="activUser_surname">Surname</string>
+    <string name="activUser_name">Name</string>
+    <string name="activUser_patronymic">Patronymic</string>
+    <string name="activUser_numberPhone">Your number</string>
+    <string name="activUser_adress">Your address</string>
+    <string name="activUser_saveBtn">Save</string>
+    <string name="product_name">Product Name</string>
+    <string name="news_heading">News Heading</string>
+    <string name="news_description">News Description</string>
+    <string name="news_date">News Date</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="tourname">Tour Name</string>
+    <string name="tourprice">Tour Price</string>
+    <string name="tourdescription">Tour Description</string>
+    <string name="problem_auth">Authentication problem</string>
+    <string name="problem_booking">Booking problem</string>
+    <string name="problem_payment">Payment problem</string>
+    <string name="problem_other">Other problem</string>
+    <string name="problem_auth_desc">If you have any issues with authentication, please check the correctness of the entered data (phone number and password). If the problem persists, contact customer support.</string>
+    <string name="problem_booking_desc">If you have any issues with booking, make sure the selected dates and parameters are available. If the problem persists, contact customer support.</string>
+    <string name="problem_payment_desc">If you have any issues with payment, check that the payment details are entered correctly. If the problem persists, contact customer support.</string>
+    <string name="problem_other_desc">If you have any other problem, please describe it in detail in the field below.</string>
+    <string name="problem_sent_toast">Problem sent. Please wait for a response.</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="select_language">Select language</string>
+    <string name="select_theme">Select theme</string>
+    <string name="cancel">Cancel</string>
+    <string name="tour_selected">You selected: %s</string>
+    <string name="exit_2">Are you sure you want to exit?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="profile_photo_options">Profile Photo Options</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="delete_photo">Delete Photo</string>
+
+    <string-array name="profile_photo_options">
+        <item>@string/take_photo</item>
+        <item>@string/upload_photo</item>
+        <item>@string/delete_photo</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>Russia</item>
+        <item>Egypt</item>
+        <item>Turkey</item>
+    </string-array>
+
+</resources>

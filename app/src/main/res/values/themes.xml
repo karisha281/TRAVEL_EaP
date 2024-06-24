@@ -1,0 +1,147 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyTourism" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="android:textColorSecondary">@color/menu_item_color</item>
+        <item name="displayOptions">useLogo|homeAsUp</item>
+        <item name="subtitle">@null</item>
+        <item name="title">@null</item>
+        <item name="windowActionBarOverlay">false</item>
+    </style>
+
+    <style name="image_profile" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="bottomNavigationStyle">@style/BottomNavigationStyle</item>
+        <item name="colorControlHighlight">@color/black</item>
+    </style>
+
+    <style name="BottomNavigationStyle">
+        <item name="android:background">@color/blue</item>
+        <item name= "itemIconTint">@drawable/bottom_nav_item_selector</item>
+        <item name= "itemTextColor">@drawable/bottom_nav_item_selector</item>
+    </style>
+
+    <style name="NewsItemTitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="NewsItemStyle" parent="Theme.AppCompat">
+        <item name="android:background">@drawable/news_item_bg</item>
+    </style>
+
+    <style name="CountryTextThemeColor">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CustomButtonStyle" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="UserFragmentStyle" parent="Theme.AppCompat">
+        <item name="android:background">@color/back2</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="UsernameStyle" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BackgroundStyle">
+        <item name="android:background">@drawable/back</item>
+    </style>
+
+    <style name="CustomButtonActivityMain" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_2</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="ActivityForPRStyle" parent="Theme.AppCompat">
+        <item name="android:background">@color/back2</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SettingsActivityStyle" parent="Theme.AppCompat">
+        <item name="android:background">@color/back2</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SettingsActivityStyleImage" parent="Theme.AppCompat">
+        <item name="android:src">@drawable/back_frament</item>
+    </style>
+
+    <style name="SettingsIconStyleChangeTheme" parent="Theme.AppCompat">
+        <item name="android:drawableLeft">@drawable/ic_change_theme</item>
+    </style>
+
+    <style name="SettingsIconStyleNotification" parent="Theme.AppCompat">
+        <item name="android:drawableLeft">@drawable/ic_notifications</item>
+    </style>
+
+    <style name="SettingsIconStyleLock" parent="Theme.AppCompat">
+        <item name="android:drawableLeft">@drawable/ic_lock</item>
+    </style>
+
+    <style name="SettingsIconStylelanguage" parent="Theme.AppCompat">
+        <item name="android:drawableLeft">@drawable/ic_language</item>
+    </style>
+
+    <style name="SettingsIconStyleHelp" parent="Theme.AppCompat">
+        <item name="android:drawableLeft">@drawable/ic_help_in_setting</item>
+    </style>
+
+    <style name="PasswordPrivateIconStyleOn" parent="Theme.AppCompat">
+        <item name="android:drawableLeft">@drawable/ic_eye_on</item>
+    </style>
+
+    <style name="PasswordPrivateIconStyleOff" parent="Theme.AppCompat">
+        <item name="android:drawableLeft">@drawable/ic_eye_off</item>
+    </style>
+
+    <style name="SettingsIconStylePtogramm" parent="Theme.AppCompat">
+        <item name="android:drawableLeft">@drawable/ic_programm</item>
+    </style>
+
+    <style name="StyleLoginActivity" parent="Theme.AppCompat">
+        <item name="android:background">@drawable/back</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleFragmentLoginActivityBack" parent="Theme.AppCompat">
+        <item name="android:background">@drawable/backgrounnd_2</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+    <style name="ToolbarTheme" parent="AppTheme">
+    </style>
+
+    <style name="roundImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/blue</item>
+    </style>
+
+
+</resources>

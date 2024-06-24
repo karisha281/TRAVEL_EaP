@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfileSettings">
+    +
+
+    <EditText
+        android:id="@+id/settings_username_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/input_design"
+        android:hint="@string/activUserSett_username"
+        android:padding="10dp"
+        tools:ignore="NotSibling" />
+
+    <EditText
+        android:id="@+id/settings_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_username_profile"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/input_design"
+        android:hint="@string/activUser_surname"
+        android:padding="10dp"
+        tools:ignore="NotSibling" />
+
+    <EditText
+        android:id="@+id/settings_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_surname"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/input_design"
+        android:hint="@string/activUser_name"
+        android:padding="10dp"
+        tools:ignore="NotSibling" />
+
+
+    <EditText
+        android:id="@+id/settings_patronymic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/input_design"
+        android:hint="@string/activUser_patronymic"
+        android:padding="10dp"
+        tools:ignore="NotSibling" />
+
+    <EditText
+        android:id="@+id/settings_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_patronymic"
+        android:hint="@string/activUser_numberPhone"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/settings_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_phone"
+        android:hint="@string/activUser_adress"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/input_design"
+        />
+
+    <Button
+        android:id="@+id/btn_save_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_address"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button"
+        android:padding="10dp"
+        android:text="@string/activUser_saveBtn"
+        android:textColor="@color/black"
+        tools:ignore="NotSibling" />
+
+
+</RelativeLayout>
